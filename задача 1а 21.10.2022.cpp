@@ -5,14 +5,15 @@ int main()
 {
 	int a;
 	cin >> a;
+	setlocale(LC_ALL, "Russian");
 	switch (a) {
 	case 1:
-		cout << "íàïðàâî"; break;
+		cout << "Ð½Ð°Ð»ÐµÐ²Ð¾"; break;
 	case 2:
-		cout << "ââåðõ"; break;
+		cout << "Ð²Ð²ÐµÑ€Ñ…"; break;
 	case 3:
-		cout << "âïðàâî"; break;
+		cout << "Ð²Ð¿Ñ€Ð°Ð²Ð¾"; break;
 	case 4:
-		cout << "âíèç"; break;
+		cout << "Ð²Ð½Ð¸Ð·"; break;
 	}
 }
