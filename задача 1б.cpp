@@ -5,21 +5,22 @@ int main()
 {
 	int a;
 	cin >> a;
+	setlocale(LC_ALL, "Russian");
 	switch (a) {
 	case 1:
-		cout << "íàëåâî" << endl; break;
+		cout << "Ð½Ð°Ð»ÐµÐ²Ð¾" << endl; break;
 	case 2:
-		cout << "ââåðõ" << endl; break;
+		cout << "Ð²Ð²ÐµÑ€Ñ…" << endl; break;
 	case 3:
-		cout << "âïðàâî"<< endl; break;
+		cout << "Ð²Ð¿Ñ€Ð°Ð²Ð¾"<< endl; break;
 	case 4:
-		cout << "âíèç" << endl; break;
+		cout << "Ð²Ð½Ð¸Ð·" << endl; break;
 	}
 	if (a == 1 || a == 3) {
-		cout << "ãîðèçîíòàëüíîå äâèæåíèå";
+		cout << "Ð³Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð´Ð²Ð¸Ð¶ÐµÐ½Ð¸Ðµ";
 	}
 	else {
-		cout << "âåðòèêàëüíîå äâèæåíèå";
+		cout << "Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÑŒÐ½Ð¾Ðµ Ð´Ð²Ð¸Ð¶ÐµÐ½Ð¸Ðµ";
 	}
 	return 0;
 }
