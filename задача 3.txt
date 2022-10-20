@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+	double x, y;
+	cin >> x >> y;
+	if (!(pow(x, 2) + pow(y, 2) <= 4) && ((x < 1 && y < 3) || (x < -1 && y < 3) || (x < 1 && y < -3) || (x < -1 && y < -3))) {
+		cout << "yes";
+	}
+	else if (!(pow(x, 2) + pow(y, 2) <= 4) && ((x == 1 && y == 3) || (x == -1 && y == 3) || (x == 1 && y == -3) || (x == -1 && y == -3))) {
+		cout << "on the border";
+	}
+	else if (!(pow(x, 2) + pow(y, 2) <= 4) && ((x < 1 && y == 3) || (x < -1 && y == 3) || (x < 1 && y == -3) || (x < -1 && y == -3))) {
+		cout << "on the border";
+	}
+	else if ((pow(x, 2) + pow(y, 2) <= 4) || ((x == 1 && y > 3) || (x == -1 && y > 3) || (x == 1 && y > -3) || (x == -1 && y > -3))) {
+		cout << "on the border";
+	}
+	else {
+		cout << "no";
+	}
+	return 0;
+}
