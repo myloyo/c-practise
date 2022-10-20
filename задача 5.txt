@@ -1,0 +1,18 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+	int a, n;
+	a = 0;
+	while (true) {
+		cin >> n;
+		if (n < 0) {
+			a = n;
+			break;
+		}
+		continue;
+	}
+	cout << a;
+}
