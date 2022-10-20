@@ -9,13 +9,13 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	d = pow(b, 2) - 4 * a * c;
 	if (d > 0) {
-		cout << "äâà êîğíÿ";
+		cout << "Ğ´Ğ²Ğ° ĞºĞ¾Ñ€Ğ½Ñ";
 	}
 	else if (d == 0) {
-		cout << "îäèí êîğåíü";
+		cout << "Ğ¾Ğ´Ğ¸Ğ½ ĞºĞ¾Ñ€ĞµĞ½ÑŒ";
 	}
 	else if (d < 0) {
-		cout << "êîğíåé íåò";
+		cout << "Ğ½ĞµÑ‚ ĞºĞ¾Ñ€Ğ½ĞµĞ¹";
 	}
 	return 0;
 }
