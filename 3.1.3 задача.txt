@@ -3,7 +3,7 @@
 
 using namespace std;
 double f(double x) {
-	return x*sqrt(2);
+	return sqrt(2*x*x);
 }
 
 double y(double x) {
